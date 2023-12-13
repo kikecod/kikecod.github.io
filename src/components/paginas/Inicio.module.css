@@ -1,0 +1,46 @@
+/* Inicio.module.css */
+
+/* Estilos para el contenedor del componente Inicio */
+.inicio-container {
+    /* Elimina el fondo */
+    background: none;
+    height: auto; /* Ajusta la altura automáticamente según el contenido */
+    display: flex;
+    flex-direction: column; /* Alinea los elementos verticalmente */
+    align-items: center; /* Centra horizontalmente los elementos */
+    padding-top: 50px; /* Espacio adicional en la parte superior para la caja de texto */
+    padding-bottom: 50px;
+}
+
+/* Estilos para la caja de texto (título y descripción) */
+.caja-texto {
+    background-color: #493D3D; /* Fondo semitransparente */
+    padding: 20px;
+    text-align: center;
+    color: white;
+    max-width: 600px; /* Ancho máximo del texto */
+    margin-bottom: 30px; /* Espacio inferior entre la caja de texto y la caja "Escucha" */
+}
+
+.escucha {
+    text-align: center;
+    margin-top: 50px; /* Añade margen superior para separar del contenido superior */
+    margin-bottom: 50px; /* Ajusta el espacio entre la caja de texto y la caja "Escucha" */
+}
+  
+.click-escucha {
+    border: 2px solid #000; /* Agrega estilos de borde si deseas */
+    border-radius: 6px;
+    padding: 10px 20px;
+    display: inline-block;
+    cursor: pointer;
+    text-decoration: none; /* Elimina el subrayado */
+    color: black;
+    margin-bottom: 20px; /* Color de texto negro */
+    /* ... otros estilos que desees */
+}
+
+/* Otros estilos... */
+
+  
+  

@@ -1,0 +1,29 @@
+/* Primeroanios.module.css */
+
+.container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Toma el 100% del viewport height */
+    justify-content: center; /* Centra verticalmente */
+    align-items: center; /* Centra horizontalmente */
+    padding: 20px;
+  }
+  
+  .contenido {
+    max-width: 800px; /* Ancho máximo del contenido */
+    border: 2px solid #ccc; /* Borde alrededor del contenido */
+    padding: 20px;
+    border-radius: 8px; /* Bordes redondeados */
+    background-color: #f9f9f9; /* Color de fondo */
+    margin-bottom: 20px; /* Espaciado entre el contenido y el footer */
+  }
+  
+  .footer {
+    margin-top: auto; /* Mantiene el footer abajo */
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+  }
+  
